@@ -1,0 +1,23 @@
+Body {
+  font-family: "Open Sans";
+  font-size: 1em;
+  color: #444
+  font-weight: 400;
+}
+
+H1 {
+  font-size: 3em;
+  color: #33485e;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+img {
+  / * This is a comment on my photo * /
+}
+
+Title {
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #33485e
+}
