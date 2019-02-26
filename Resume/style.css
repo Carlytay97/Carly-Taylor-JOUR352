@@ -1,23 +1,54 @@
-Body {
-  font-family: "Open Sans";
+/* Styles for my resume * /
+
+/* font formats */
+body {
+  font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
-  color: #444
+  color: #444;
   font-weight: 400;
 }
-
+/* banner format */
 H1 {
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
 }
-
+/* img comment */
 img {
   / * This is a comment on my photo * /
 }
-
+/* title format */
 Title {
   text-transform: uppercase;
   font-size: 1em;
-  color: #33485e
+  color: #33485e;
+}
+/*section headers*/
+H2 {
+  font-size: 1.5em;
+  background-color: #33485e;
+  color: white;
+  font-weight: 400;
+}
+/*job titles*/
+H3 {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+/*job organizations*/
+H4 {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+/*job dates*/
+H5 {
+  font-weight:400;
+  font-style: italic;
+  font-size: 1em;
+}
+
+ul {
+  font-size: 1em;
+  
 }
