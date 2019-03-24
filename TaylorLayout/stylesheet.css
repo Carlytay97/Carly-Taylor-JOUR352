@@ -1,0 +1,35 @@
+#content {
+  width: 900px;
+  margin: 0 auto;
+}
+.banner{
+  margin: 0 auto;
+}
+.byline{
+  font-family: Helvetica, "Times New Roman";
+  font-size: 14pt;
+  font-style: italic;
+}
+.date{
+  font-family: Helvetica, "Times New Roman";
+  font-size: 14pt;
+  font-style: italic;
+}
+h1 {
+  font-family: Helvetica, "sans-serif", "Times New Roman";
+  font-size: 20pt;
+}
+p {
+  font-family: Georgia, serif, "Times New Roman";
+  font-size: 13px;
+}
+blockquote{
+  font: 26px/38px normal helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #710000;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+}

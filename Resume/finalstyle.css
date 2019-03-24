@@ -1,0 +1,136 @@
+body {
+  font-family: Helvetica;
+  font-size: 1em;
+  color: #000000;
+  font-weight: 400;
+}
+
+.display-4 {
+  background-color: #000000;
+  color: #f3c8f4;
+}
+.me {
+  color: #000000;
+  font-size: 1.5em;
+}
+
+div #container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/* banner format */
+div #name {
+  font-size: 3em;
+  color: #33485e;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+/* title format */
+div #title {
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #33485e;
+}
+/*section headers*/
+div #sectionheader {
+  font-size: 2em;
+  background-color: #000000;
+  color: #f3c8f4;
+  font-weight: 400;
+  margin-top: : 20px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+/*job titles*/
+div #jobtitle {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+/*job organizations*/
+div #organization {
+  font-weight: 400;
+  font-size: 1.25em;
+}
+/*job dates*/
+div #date {
+  font-weight:400;
+  font-style: italic;
+  font-size: 1em;
+  margin: 2px 0px;
+}
+
+ul {
+  font-size: 1em;
+}
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.menu {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+li {
+  display: inline;
+  list-style-type: none;
+}
+
+ul #degrees {
+  margin: 5px 0px;
+}
+
+ul #do {
+  margin: 5px 0px;
+}
+
+div #title {
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.bio {
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+.about {
+  background-color: #000000;
+  color: #f3c8f4;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.work {
+  background-color: #000000;
+  color: #f3c8f4;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.more {
+  font-weight: 400;
+  font-size: 1.25em;
+}
