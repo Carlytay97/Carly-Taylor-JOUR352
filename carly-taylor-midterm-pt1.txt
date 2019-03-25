@@ -1,0 +1,32 @@
+<a href="https://www.google.com/"><p>Google</a>is the best search engine in the world</p>
+
+A div tag is a container for a select body of text. It is also essential for CSS.
+
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>text</title>
+    </head>
+    <body>main text</body>
+  </html>
+
+The link to a stylesheet goes in the head.
+
+The main area for text, images, or DIV tags is the body.
+
+<div class="graphicbox"> </div>
+<div ID="name"> </div>
+
+<div id="apples" class="fruit"> </div>
+
+.fruit {
+  color: #000000;
+}
+
+The image tag is <img src="">
+
+Media queries are used to allow a page to be user-friendly on different devices.
+
+One is a font-family one is not
+
+#FFCC33
