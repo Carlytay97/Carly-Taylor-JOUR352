@@ -10,6 +10,7 @@ body {
   color: #f3c8f4;
 }
 .me {
+  font-family: 'Open Sans', arial, sans-serif;
   color: #000000;
   font-size: 1.5em;
 }
@@ -130,3 +131,63 @@ div #title {
   font-weight: 400;
   font-size: 1.25em;
 }
+
+.skills {
+  font-size: 2em;
+  background-color: #000000;
+  color: #f3c8f4;
+  font-weight: 400;
+  margin-top: : 20px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+.ed {
+  font-size: 2em;
+  background-color: #000000;
+  color: #f3c8f4;
+  font-weight: 400;
+  margin-top: : 20px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+.ex {
+  font-size: 2em;
+  background-color: #000000;
+  color: #f3c8f4;
+  font-weight: 400;
+  margin-top: : 20px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+/*job titles*/
+ .jobtitle {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+/*job organizations*/
+.organization {
+  font-weight: 400;
+  font-size: 1.25em;
+}
+/*job dates*/
+.date {
+  font-weight:400;
+  font-style: italic;
+  font-size: 1em;
+  margin: 2px 0px;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
