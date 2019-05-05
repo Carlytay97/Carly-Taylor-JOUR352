@@ -1,0 +1,331 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width,
+initial-scale=1, shrink-to-fit=no">
+<meta name="description" content= "final project">
+<meta name="author" content="Carly Taylor">
+
+
+
+<title>Bootstrap Template</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <!-- Load c3.css -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+
+     <!-- Load our CSS -->
+     <link rel="stylesheet" href="stylesheet.css">
+
+     <!-- Load d3.js and c3.js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <a class="navbar-brand" href="#">How Have Podcasts Become So Popular?</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item">
+           <a class="nav-link" href="#First Headline">The Beginning</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#Second Headline">The Success</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#Third Headline">The Future</a>
+         </li>
+           </div>
+       </ul>
+     </div>
+    </nav>
+<!--End NavBar -->
+
+<div id="container" class=first-block>
+  <img src= "new-head.png" width="400" height="600" class="head">
+
+</div>
+
+<div id="container" class=second-block>
+  <p class="subhead">From the 21st century into the future</p>
+  <p class="byline">By Carly Taylor</p>
+
+  <p> Over the past two decades, the way we consume media has evolved at rapid speeds.</p>
+
+  <p>Newspapers and magazines have launched websites, television can now be watched
+exclusively on our laptops and even cell phones, social media – from Myspace to Instagram
+– has provided new channels for interpersonal connection. And now, information
+that was once limited to an at-home or motor vehicle stereo is available at our finger tips.</p>
+
+  <p>On a walk to class, during morning and evening commutes, while vegging on the couch
+– 33 percent of Americans are plugging in their headphones (or connecting to Bluetooth)
+at least once a month to tune into their favorite audio stories, according to Statista.</p>
+
+  <p>Whether you’re looking to rattle your mind with a true crime show, to delve in
+deeper to today’s top headline, or to chuckle at the banter between your favorite celebrities,
+there’s a podcast for everyone. There’s more than 700,000 shows, according to Podcast Insights,
+on a digital shelf near you.</p>
+
+<p>But how did we get here?</p>
+
+
+<p class="chapter"><a name="First Headline"></a>Where it all began</p>
+<p>The Internet is eager to pinpoint “Serial” – the highly acclaimed investigative series
+  hosted by journalist Sarah Koenig – as the birth of the podcast craze.</p>
+
+<p>Whether this was the catalyst that brought podcasts into the forefront of popular culture
+  can be debated, but the history of the medium can be traced back a full decade before the
+  first episode premiered in 2014.</p>
+
+<p>Chris Lydon and Susie Bright are just a couple of the names known for their audio content,
+  which was downloadable from their blogs circa 2004, The Guardian reports.</p>
+
+<p>At the time, creators exploring new technologies and the journalists who covered them still
+  weren’t sure what to label this new intersection of audio software, portable media players and blogging.</p>
+
+<p>“But what to call it? Audioblogging? Podcasting? GuerillaMedia?” The Guardian’s Ben Hammersley wrote.<p>
+
+<p>The term in the middle just stuck.</p>
+
+<div class="container" id="third-block">
+        <div class="row">
+
+                <div class="col-md-4">
+                        <h5>In Bed with Susie Bright, 2008</h5>
+                        <p><iframe src="https://tunein.com/embed/player/t122252899/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe></p>
+                </div>
+
+
+
+                <div class="col-md-4" id="col">
+                  <h5>Open Source with Christopher Lydon, 2008</h5>
+                  <p><audio controls>
+                  <source src="Anthony_Barnett.mp3" type="audio/mpeg" style=width:100%; height: 100px; frameborder="no">
+                    Your Browser Does Not Support The Audio Element
+                  </audio></p>
+</div>
+
+<!--Embedded audio of early podcasts, want to use 2 column grid-->
+
+<div id="container" class="second-block">
+
+<p>As more individuals and media companies debuted new podcasts, technology-focused companies,
+  including Apple, Yahoo, Google, worked to make consumption more accessible for listeners.
+  International Podcast Day highlights iTunes new podcast feature in 2005 and Google’s acquisition
+  of podcast service, Feedburner, in 2007. </p>
+
+<p>However, it wasn’t until 2014 that Apple added a podcast app to the iPhone,
+  that the technology truly transformed, according to The New Yorker.</p>
+
+<p>Podcasts were getting good (Serial had reached a million listeners in its first month,
+  The New Yorker reported), and the process to subscribe and listen was a whole lot easier
+  (at least if you were an iPhone user).</p>
+
+  <p>The fast-moving, short attention-spanned citizens
+  of the digital age responded.</p>
+
+</div>
+
+  <!--increase in listeners infographic-->
+  <!-- first graphic container-->
+     <div class="graphic-container">
+       <h2>% of U.S. Population Listened to Podcast in Last Month</h2>
+       <div id="myLineChart"></div>
+       <em>Source: Infinite Dial 2019</em>
+     </div>
+  <!-- END first graphic container-->
+
+<div id="container" class="second-block">
+
+<p class="chapter"><a name="Second Headline"></a>What makes a podcast successful?</p>
+<p>While podcasting isn’t an exact science, there are a few best practices that
+  audio creators should hone in on if they want any chance of making it to the big
+  leagues – or at least the “top 100 chart” on iTunes.</p>
+
+<p>An interesting subject is one of the most important components of a podcast,
+  said Robert Little, investigative reporter and editor for NPR.</p>
+
+<p>“If you don’t have that, that’s probably well over half of what is going to work,” Little said.</p>
+
+
+<p>Having a host who can connect an audience with a story and incorporating action,
+  like bringing in another perspective or tone of voice, should also be considered
+  in making a podcast, Little said. </p>
+
+<p>Radio host and podcast consultant Lauren Ober cautions that there is no
+  “special sauce” to get seen among the hundreds of thousands of shows on the market.</p>
+
+<p>While a good narrative podcast should focus on aspects like reporting and audio,
+  an interview show should emphasize engaging guests and good questions, Ober tells Time4Coffee podcast.</p>
+
+</div>
+<!--top podcasts infographic -->
+<!-- second graphic container-->
+  <div id="graphic-container">
+    <h2>Top Podcast Publishers By Monthly Audience</h2>
+    <div id="TopPods"></div>
+    <em>Source: Podtrac</em>
+</div>
+<!-- END second graphic container-->
+<div id="container" class="second-block">
+<p>However, there are a few definitive mistakes podcasters should look to avoid.
+  Those who don’t consider the audience during the production process are typically less successful, Ober said.</p>
+
+<p>“You can make a podcast is slapdash as you want, but putting in the effort to edit it,
+  putting in the effort to mix it and sound design it and have a signature sound to it is really important,”
+  Ober tells Time4Coffee.</p>
+
+<p>Little agrees, calling the use of bad audio in a podcast a “rookie mistake.”</p>
+
+<p>“It’s going to make it very difficult for somebody to listen to,
+  even if what the people are saying is interesting,” Little said.</p>
+
+<p>Podcasters who lack direction in their storytelling is critical, too, Ober said.</p>
+
+<p>“What do you want to tell?...Does your voice need to be on it? Do you even need to have a show?
+  I think these are questions that people could ask themselves,” Ober tells Time4Coffee.</p>
+</div>
+  <!--timeline goes here -->
+  <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1ZqT_FxyXDEUeAJfyXMlfS6AmquSMm8mWQrPf2Cps96s&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+  </div>
+
+<div id="container" class="second-block">
+<p class="chapter"><a name="Third Headline"></a>What does the future hold?</p>
+<p>While the days of dial-up and iPods during which this platform emerged seem distant to many,
+  podcasts are still regarded as a relatively new medium, Little said.</p>
+
+<p>Listenership and number of shows continues to grow. This year marks record growth for the industry
+  – consumers report an average of nearly 17 hours spent listening to online audio per week,
+  according to Edison Research.</p>
+</div>
+  <!--time spent listening infographic-->
+  <!-- third graphic container-->
+  <div id="graphic-container">
+    <h2>Hours Spent Listening to Online Audio Per Week</h2>
+    <div id="Time"></div>
+    <em>Source: Infinite Dial 2019</em>
+  </div>
+  <!-- END third graphic container-->
+<div id="container" class="second-block">
+<p>There are commercial opportunities, like advertising, that allow podcasts to remain a significant
+  force in the market.</p>
+
+<p>The real question, Little said, is whether podcast is the future of radio.
+  Listeners have already changed music-consumption habits, downloading mobile apps
+  like Spotify or Pandora instead of turning on the radio.</p>
+</div>
+
+<!--type of device pie chart-->
+<!-- fourth graphic container-->
+<div id="graphic-container">
+  <h2>Audio Listening by Device</h2>
+  <div id="AudioSource"></div>
+  <em>Source: Share of Ear 2018</em>
+</div>
+<!-- END fourth graphic container-->
+
+<div id="container" class="second-block">
+<p>“I think the migration of listening to news and storytelling is similarly inevitable,” Little said.</p>
+</div>
+
+&nbsp;
+
+  <footer class="footer">
+  <p>Posted by: Carly Taylor</p>
+  <p>Copyright 2019 JOUR352: Interactive Design and Development</p>
+</footer>
+
+
+
+</div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-
+q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- c3 script-->
+   <script type="text/javascript">
+   //CHART 1
+   var chart = c3.generate({
+     bindto: '#myLineChart',
+     data: {
+       x: 'x',
+       columns: [
+         ['x', 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+         ['% Listened', 9, 11, 12, 12, 14, 12, 15, 17, 21, 24, 26, 32],
+       ]
+     },
+     color: {
+       pattern: ['#ffffff']
+     }
+   });
+   var chart2 = c3.generate({
+     bindto: '#TopPods',
+     data: {
+       columns: [
+         ['NPR', 18685000],
+         ['iHeartRadio', 17537000],
+         ['PRX', 7956000],
+         ['Wondery', 7840000],
+         ['New York Times', 7130000],
+       ],
+       type: 'bar'
+     },
+     color: {
+       pattern: ['#2a8dc5', '#60c4b2', '#5c6066', '000000', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+     }
+   });
+
+      var chart3 = c3.generate({
+        bindto: '#Time',
+        data: {
+          x: 'x',
+          columns: [
+            ['x', 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+            ['Hours listened (rounded)', 6, 7, 8, 9, 10, 12, 13, 13, 12, 15, 14, 17],
+          ]
+        },
+        color: {
+          pattern: ['#ffffff']
+        }
+      });
+
+     var chart4 = c3.generate({
+      bindto: '#AudioSource',
+      data: {
+        // iris data from R
+        columns: [
+          ['AM/FM Radio', 47],
+          ['Mobile', 23],
+          ['Other', 30]
+        ],
+        type : 'pie',
+        onclick: function (d, i) { console.log("onclick", d, i); },
+        onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+        onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+      },
+      color: {
+        pattern: ['#000000', '#973895', '#5c6066']
+      }
+    });
+</script>
+  </body>
+</html>

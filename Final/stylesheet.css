@@ -1,0 +1,64 @@
+ul.navbar-nav {
+ margin-left:60%;
+ font-family: 'Roboto Mono', monospace;
+
+}
+
+.navbar-brand {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.bg-dark {
+ background:#744c6e !important;
+}
+
+.first-block {
+  display: block;
+  background: black;
+}
+
+.second-block {
+  display: block;
+  background: white;
+}
+.head {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.byline {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16pt;
+  text-align: center;
+  font-weight: 400;
+}
+
+.subhead {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20pt;
+  text-align: center;
+  font-weight:700;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12pt;
+  font-weight: 400;
+}
+
+.chapter {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18pt;
+  font-weight:700;
+}
+
+col {
+  margin-right: 50px;
+}
+
+#third-block {
+  display: block;
+  background: #744c6e;
+}
