@@ -24,7 +24,7 @@ initial-scale=1, shrink-to-fit=no">
      <!-- Load d3.js and c3.js -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
-
+     <script src= "https://cdn.zingchart.com/zingchart.min.js"></script>
 
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 </head>
@@ -53,12 +53,11 @@ initial-scale=1, shrink-to-fit=no">
     </nav>
 <!--End NavBar -->
 
-<div id="container" class=first-block>
+<div class=first-block>
   <img src= "new-head.png" width="400" height="600" class="head">
-
 </div>
 
-<div id="container" class=second-block>
+<div class="first">
   <p class="subhead">From the 21st century into the future</p>
   <p class="byline">By Carly Taylor</p>
 
@@ -80,6 +79,9 @@ on a digital shelf near you.</p>
 
 <p>But how did we get here?</p>
 
+</div>
+
+<div class="second-block">
 
 <p class="chapter"><a name="First Headline"></a>Where it all began</p>
 <p>The Internet is eager to pinpoint “Serial” – the highly acclaimed investigative series
@@ -98,28 +100,35 @@ on a digital shelf near you.</p>
 <p>“But what to call it? Audioblogging? Podcasting? GuerillaMedia?” The Guardian’s Ben Hammersley wrote.<p>
 
 <p>The term in the middle just stuck.</p>
-
-<div class="container" id="third-block">
+</div>
+<center><div id="third-block">
         <div class="row">
 
-                <div class="col-md-4">
+                <div class="col-md-4" id="third-block">
                         <h5>In Bed with Susie Bright, 2008</h5>
                         <p><iframe src="https://tunein.com/embed/player/t122252899/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe></p>
                 </div>
 
 
+                <div class="col-md-4" id="third-block">
 
-                <div class="col-md-4" id="col">
+                </div>
+
+
+                <div class="col-md-4" id="third-block">
                   <h5>Open Source with Christopher Lydon, 2008</h5>
                   <p><audio controls>
                   <source src="Anthony_Barnett.mp3" type="audio/mpeg" style=width:100%; height: 100px; frameborder="no">
                     Your Browser Does Not Support The Audio Element
                   </audio></p>
+                </div>
+          </div>
 </div>
+</center>
 
 <!--Embedded audio of early podcasts, want to use 2 column grid-->
 
-<div id="container" class="second-block">
+<div class="second-block">
 
 <p>As more individuals and media companies debuted new podcasts, technology-focused companies,
   including Apple, Yahoo, Google, worked to make consumption more accessible for listeners.
@@ -140,14 +149,14 @@ on a digital shelf near you.</p>
 
   <!--increase in listeners infographic-->
   <!-- first graphic container-->
-     <div class="graphic-container">
+     <div class="graphic-container" id="third-block">
        <h2>% of U.S. Population Listened to Podcast in Last Month</h2>
        <div id="myLineChart"></div>
        <em>Source: Infinite Dial 2019</em>
      </div>
   <!-- END first graphic container-->
 
-<div id="container" class="second-block">
+<div class="second-block">
 
 <p class="chapter"><a name="Second Headline"></a>What makes a podcast successful?</p>
 <p>While podcasting isn’t an exact science, there are a few best practices that
@@ -173,13 +182,13 @@ on a digital shelf near you.</p>
 </div>
 <!--top podcasts infographic -->
 <!-- second graphic container-->
-  <div id="graphic-container">
+  <div class="graphic-container" id="third-block">
     <h2>Top Podcast Publishers By Monthly Audience</h2>
     <div id="TopPods"></div>
     <em>Source: Podtrac</em>
 </div>
 <!-- END second graphic container-->
-<div id="container" class="second-block">
+<div class="second-block">
 <p>However, there are a few definitive mistakes podcasters should look to avoid.
   Those who don’t consider the audience during the production process are typically less successful, Ober said.</p>
 
@@ -201,7 +210,7 @@ on a digital shelf near you.</p>
   <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1ZqT_FxyXDEUeAJfyXMlfS6AmquSMm8mWQrPf2Cps96s&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
   </div>
 
-<div id="container" class="second-block">
+<div class="second-block">
 <p class="chapter"><a name="Third Headline"></a>What does the future hold?</p>
 <p>While the days of dial-up and iPods during which this platform emerged seem distant to many,
   podcasts are still regarded as a relatively new medium, Little said.</p>
@@ -212,13 +221,13 @@ on a digital shelf near you.</p>
 </div>
   <!--time spent listening infographic-->
   <!-- third graphic container-->
-  <div id="graphic-container">
+  <div class="graphic-container" id="third-block">
     <h2>Hours Spent Listening to Online Audio Per Week</h2>
     <div id="Time"></div>
     <em>Source: Infinite Dial 2019</em>
   </div>
   <!-- END third graphic container-->
-<div id="container" class="second-block">
+<div class="second-block">
 <p>There are commercial opportunities, like advertising, that allow podcasts to remain a significant
   force in the market.</p>
 
@@ -226,25 +235,22 @@ on a digital shelf near you.</p>
   Listeners have already changed music-consumption habits, downloading mobile apps
   like Spotify or Pandora instead of turning on the radio.</p>
 </div>
-
 <!--type of device pie chart-->
 <!-- fourth graphic container-->
-<div id="graphic-container">
+<div class="graphic-container" id="third-block">
   <h2>Audio Listening by Device</h2>
   <div id="AudioSource"></div>
   <em>Source: Share of Ear 2018</em>
 </div>
 <!-- END fourth graphic container-->
 
-<div id="container" class="second-block">
-<p>“I think the migration of listening to news and storytelling is similarly inevitable,” Little said.</p>
+<div class="second-block">
+  <p>“I think the migration of listening to news and storytelling is similarly inevitable,” Little said.</p>
 </div>
-
-&nbsp;
 
   <footer class="footer">
   <p>Posted by: Carly Taylor</p>
-  <p>Copyright 2019 JOUR352: Interactive Design and Development</p>
+  <p>Copyright 2019</p>
 </footer>
 
 
@@ -290,7 +296,7 @@ integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07j
        type: 'bar'
      },
      color: {
-       pattern: ['#2a8dc5', '#60c4b2', '#5c6066', '000000', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+       pattern: ['#000000', '#e686fb','#ffffff', '#61616a', '#56d588', '#ffffff', '#ffffff', '#ffffff']
      }
    });
 
@@ -323,7 +329,7 @@ integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07j
         onmouseout: function (d, i) { console.log("onmouseout", d, i); }
       },
       color: {
-        pattern: ['#000000', '#973895', '#5c6066']
+        pattern: ['#000000', '#56d588', '#5c6066']
       }
     });
 </script>

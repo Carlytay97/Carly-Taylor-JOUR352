@@ -14,13 +14,31 @@ ul.navbar-nav {
 
 .first-block {
   display: block;
-  background: black;
+  background: #232526;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 10px solid white;
+}
+
+.first {
+  display: block;
+  background: #232526;
+  color: white;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 5px solid white;
 }
 
 .second-block {
   display: block;
-  background: white;
+  background: #232526;
+  color: white;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 .head {
   display: block;
   margin-left: auto;
@@ -61,8 +79,17 @@ col {
 #third-block {
   display: block;
   background: #744c6e;
+  width: 100%;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-#fourth-block {
-
+.footer {
+  display: block;
+  background: black;
+  width: 100%;
+  color: white;
+  text-align: center;
+  border-top: 5px solid white;
 }
